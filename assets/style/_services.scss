@@ -1,0 +1,96 @@
+.services-page {
+  .btn-contact {
+    display: block;
+    width: fit-content;
+    padding: 16px 32px;
+  }
+  .hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    &__banner {
+      margin: 138px 0;
+      padding: 24px 87px 32px;
+    }
+    &__title {
+      margin: 0;
+      font-size: $font-title-size;
+    }
+  }
+  .info {
+    padding: 64px 0;
+    text-align: center;
+    background-color: $accent;
+    &__text {
+      display: inline-block;
+      max-width: 816px;
+      font-size: $font-subtitle1-size;
+      font-weight: $font-subtitle1-wight;
+      color: $white;
+    }
+  }
+  .reviews {
+    margin-top: 100px;
+    text-align: center;
+    &__inner {
+      margin: 0 auto;
+      max-width: 1500px;
+      width: 100%;
+    }
+    &__title {
+      color: $accent;
+    }
+    .reviews-slider {
+      margin: 0 15px;
+      padding: 0 15px;
+    }
+
+    .swiper-slide {
+      border-radius: $border-radius;
+      margin-top: 56px;
+      box-shadow: 3px 1px 6px 0px rgba(176, 176, 176, 0.4);
+      background-color: $light;
+      padding: 24px 34px;
+      width: 600px;
+      min-height: 225px;
+    }
+    &__slider-box {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 24px;
+    }
+    &__decor {
+      width: 72px;
+      height: 64px;
+    }
+    &__quotes {
+      // width: 40px;
+      // height: 32px;
+      content: "";
+      position: absolute;
+      border-radius: $border-radius;
+      top: -4px;
+      right: -4px;
+      z-index: 3;
+      background-color: $accent;
+      padding: 16px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    &__name {
+      font-size: $font-subtitle2-size;
+      font-weight: $font-btn-wight;
+    }
+    &__text {
+      margin: 24px 0;
+    }
+    &__star {
+      margin: 0 auto;
+      height: 16px;
+      width: 80px;
+    }
+  }
+}
